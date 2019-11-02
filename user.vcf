@@ -1,14 +1,12 @@
 BEGIN:VCARD
 VERSION:3.0
 PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
-N:Lim;Preston;;;
-FN: Preston  Lim 
-ORG:GovTech;
-TITLE:Associate Software Engineer\nProducts Team, Data Science Division
-EMAIL;type=INTERNET;type=WORK;type=pref:preston@data.gov.sg
-TEL;type=WORK;type=VOICE:+65 9123 4567
-item1.ADR;type=WORK;type=pref:;;1 Fusionopolis View\nSandcrawler\, 09-01;;;138577;Singapore
-item1.X-ABADR:sg
-item2.URL;type=pref:tech.gov.sg
+N:Yap;Joseph;;;
+FN: Joseph  Yap 
+ORG:Prudential Malaysia;
+TITLE:Insurance Broker
+EMAIL;type=INTERNET;type=WORK;type=pref:yap_joseph@hotmail.com
+TEL;type=WORK;type=VOICE:+60 10 763 9123
+item2.URL;type=pref:www.facebook.com/PrudentialJosephYap
 item2.X-ABLabel:_$!<HomePage>!$_
 END:VCARD
