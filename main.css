@@ -180,14 +180,14 @@ img.profile-pic {
 	font-weight: 300;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   img.profile-pic {
     height: 60%;
     width: 60%;
   }
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 480px) {
   img.profile-pic {
     height: 80%;
     width: 80%;
