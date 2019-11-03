@@ -202,12 +202,13 @@ img.profile-pic {
 	height: 100%;
 	background: white;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
 .loader > img {
-	width: 100px;
+	width: 140px;
 }
 
 .loader.hidden {
