@@ -196,6 +196,8 @@ img.profile-pic {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	animation: fadeOut 3s;
+	animation-fill-mode: forwards;
 }
 
 .loader > img {
