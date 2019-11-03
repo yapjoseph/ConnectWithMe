@@ -218,7 +218,7 @@ img.loadinggif {
 }
 
 .loader.hidden {
-	animation: fadeOut 3s;
+	animation: bounceOutUp 3s;
 	animation-fill-mode: forwards;
 	animation-delay: 2.5s
 }
@@ -228,6 +228,23 @@ img.loadinggif {
 		opacity: 0;
 		visibility: hidden;
 	}
+}
+
+@keyframes bounceOutUp {
+  20% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
 }
 
 @media screen and (max-width: 600px) {
