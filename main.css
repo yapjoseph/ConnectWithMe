@@ -1,14 +1,5 @@
 html,
 
-{
-"target_url": "http://www.facebook.com/100415198006032",
-"extras": {
-"myapp_token": "t0kEn"
-},
-"user_agent": "Bolts iOS 1.1",
-"version": "1.0"
-}
-
 body {
   height: 100%;
   width: 100%;
@@ -270,3 +261,13 @@ img.loadinggif {
     width: 80%;
   }
 }
+
+{
+"target_url": "http://www.facebook.com/",
+"extras": {
+"myapp_token": "t0kEn"
+},
+"user_agent": "Bolts iOS 1.1",
+"version": "1.0"
+}
+
