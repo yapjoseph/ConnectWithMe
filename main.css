@@ -4,6 +4,7 @@ body {
   width: 100%;
   margin: 0;
   justify-content: center;
+overflow: inherit;
 }
 
 section {
@@ -62,7 +63,7 @@ img.profile-pic {
 	flex-basis: 0;
 	flex-grow: 1;
 	flex-shrink: 1;
-	margin: auto;
+	margin: inherit;
 	padding: 0.25rem;
 	max-width: 100%;
 	max-height: 100%;
@@ -231,7 +232,7 @@ img.profile-pic {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   img.profile-pic {
     height: 80%;
     width: 80%;
