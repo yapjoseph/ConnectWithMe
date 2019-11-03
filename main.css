@@ -44,6 +44,8 @@ img.profile-pic {
 img.loadinggif {
 	height: 100px;
 	width: 100px;
+	max-height: 10%;
+	max-width: 10%;
 }
 
 .container {
@@ -165,7 +167,7 @@ img.loadinggif {
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     color: #333333;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .text-detail {
@@ -213,13 +215,14 @@ img.loadinggif {
 }
 
 .loader > img {
-	width: 340px;
+	width: 240px;
+	max-width: 20%
 }
 
 .loader.hidden {
 	animation: fadeOut 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 2s
+	animation-delay: 2.5s
 }
 
 @keyframes fadeOut {
