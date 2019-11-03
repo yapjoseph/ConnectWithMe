@@ -192,7 +192,7 @@ img.profile-pic {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: red;
+	background: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -203,7 +203,7 @@ img.profile-pic {
 }
 
 .loader.hidden {
-	animation: fadeOut 1s;
+	animation: fadeOut 3s;
 	animation-fill-mode: forwards;
 }
 
