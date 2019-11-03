@@ -211,7 +211,7 @@ img.profile-pic {
 	100% {
 		opacity: 0;
 		visibility: hidden;
-		transition: visibility 0s 2s, opacity 2s linear;
+		transition: visibility 0s 5s, opacity 5s linear;
 	}
 }
 
