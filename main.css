@@ -21,9 +21,6 @@ a {
 	text-decoration: none;
 }
 
-
-	
-
 img {
 	display: block;
     margin-left: auto;
@@ -215,6 +212,7 @@ img.profile-pic {
 		opacity: 0;
 		visibility: hidden;
 	}
+}
 
 @media screen and (max-width: 600px) {
   img.profile-pic {
