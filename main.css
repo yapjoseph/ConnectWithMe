@@ -173,6 +173,11 @@ img.profile-pic {
 	height: 23%;
 }
 
+.fb-like {
+	text-align: center;
+	vertical-align: middle;
+}
+
 .button {
 	background-color: #f22c2c;
 	height: 48px;
