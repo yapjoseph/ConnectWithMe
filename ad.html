@@ -9,7 +9,7 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:200,300,400,700' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Muli:200,300" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-
+<script type="text/javascript" src="instascan.min.js"></script>
 
 
 	
@@ -158,6 +158,22 @@
 		</div>
 	</section>
 	
+	<video id="preview"></video>
+    <script type="text/javascript">
+      let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+      scanner.addListener('scan', function (content) {
+        console.log(content);
+      });
+      Instascan.Camera.getCameras().then(function (cameras) {
+        if (cameras.length > 0) {
+          scanner.start(cameras[0]);
+        } else {
+          console.error('No cameras found.');
+        }
+      }).catch(function (e) {
+        console.error(e);
+      });
+    </script>
 
 
 </body>
